@@ -1,0 +1,11 @@
+#summary Planned modifications.
+
+= MUST =
+
+ * Add JQuery version which will include support for multiple password fields.
+ * Add different styles
+ * Check for support in other browsers
+
+= GOOD IF ... =
+
+ * Add addition KEY input by user similar to a NIP in order to increase security
