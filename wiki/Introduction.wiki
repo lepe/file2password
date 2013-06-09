@@ -31,9 +31,9 @@ The good thing is that "easy-target.com" encrypted the user's passwords. However
 
 "hackme" = "75eb52c3b2515d8aafe641c29a1028a4"
 
-Because the length is 32, he may think is MD5 (the most common algorithm), but it is not. Testing his password against several algorithms, it discovers that they actually are using "ripemd128".
+Because the length is 32, he may think is MD5 (the most common algorithm), but it is not. Testing his password against several algorithms, it discovers that they actually are using "ripemd128".[http://security.alepe.com/hash.php Try it yourself]
 
-Now, the rest is not that hard. He needs to crack as many passwords as possible. Using his no-so-new video card with 10GPUs he may crack one password, of 6 to 10 characters, in less than 5 minutes (now imagine if he has 10 or more computers like that). He can highly reduce that time if he uses a dictionary (picking the very easy ones first). 
+Now, the rest is not that hard. He needs to crack as many passwords as possible. Using his no-so-new video card with 10GPUs he may crack one password, of 6 to 10 characters, in less than 5 minutes (now imagine if he has 10 or more computers like that). He can highly reduce that time if he uses a dictionary (picking the very easy ones first). [http://security.alepe.com/passchk.php Try it yourself]
 
 If the rest of the user's information is not encrypted (i.e., names, email addresses, phone numbers), he may first try to get additional information of those people in google to target "more interesting" ones first: government, managers, IT engineers, celebrities, people outside the matrix, etc. 
 
