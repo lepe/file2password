@@ -5,6 +5,7 @@
  * Add JQuery version which will include support for multiple password fields.
  * Add different styles
  * Check for support in other browsers
+ * Create different algorithms
 
 = GOOD IF ... =
 
