@@ -1,3 +1,5 @@
+#Reasoning behind this library
+
 = Introduction =
 
 Do you think your password is good enough? Think again... 
