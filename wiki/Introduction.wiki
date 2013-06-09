@@ -1,4 +1,4 @@
-#Reasoning behind this library
+#Reasoning behind this library.
 
 = Introduction =
 
