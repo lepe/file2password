@@ -9,7 +9,7 @@ Fragment from [http://en.wikipedia.org/wiki/Password_strength Wikipedia]:
 
  ... Users rarely make full use of larger characters sets in forming passwords. For example, hacking results obtained from a MySpace phishing scheme in 2006 revealed 34,000 passwords, of which only 8.3% used mixed case, numbers, and symbols.
 
- Note that the full strength associated with using the entire ASCII character set (numerals, mixed case letters and special characters) is only achieved if each character in the password is chosen randomly from that set. Capitalizing a letter and adding a couple of numbers and a special character to a password will not achieve the same strength. If the numbers and special character are added in predictable ways, say at the beginning and end of the password,[10] they could even lower password strength compared to an all letter random password of the same length.
+ Note that the full strength associated with using the entire ASCII character set (numerals, mixed case letters and special characters) is only achieved if each character in the password is chosen randomly from that set. Capitalizing a letter and adding a couple of numbers and a special character to a password will not achieve the same strength. If the numbers and special character are added in predictable ways, say at the beginning and end of the password, they could even lower password strength compared to an all letter random password of the same length.
 
 As system engineer, I have seen myself how most users prefer easy-to-remember passwords against hard-to-guess ones.
 
@@ -33,11 +33,11 @@ The good thing is that "easy-target.com" encrypted the user's passwords. However
 
 Because the length is 32, he may think is MD5 (the most common algorithm), but it is not. Testing his password against several algorithms, it discovers that they actually are using "ripemd128".
 
-Now, the rest is not that hard. He needs to crack as many passwords as possible. Using his no-so-new video card with 10GPUs he may crack one password, of 6 to 10 characters, in less than 5 minutes (now imagine if he has 10 or more computers like that). It can highly reduce that time if he uses a dictionary (picking the very easy ones first). 
+Now, the rest is not that hard. He needs to crack as many passwords as possible. Using his no-so-new video card with 10GPUs he may crack one password, of 6 to 10 characters, in less than 5 minutes (now imagine if he has 10 or more computers like that). He can highly reduce that time if he uses a dictionary (picking the very easy ones first). 
 
-If the rest of the user's information is not encrypted (i.e., names, email addresses, phone numbers), he may first try to get additional information of those people online to target "more interesting" people first: government, managers, IT engineers, celebrities, people outside the matrix, etc. 
+If the rest of the user's information is not encrypted (i.e., names, email addresses, phone numbers), he may first try to get additional information of those people in google to target "more interesting" ones first: government, managers, IT engineers, celebrities, people outside the matrix, etc. 
 
-Eureka! he finds Neo's password! Cypher will check if Neo's password is the same for the email specified in his account. He succeed to login (Neo wasn't that smart after all). Cypher then find login information of other online services (as often they send user's passwords to them), his company's servers credentials, and even the NIP that Morpheus sent him in order to use the public phones for free!.
+Eureka! he finds Neo's password! Cypher will check if Neo's password is the same for the email specified in his account. He succeed to login (Neo wasn't that smart after all). Cypher then find login information of other online services (as often they send user's passwords on suscribe), his company's servers credentials, and even the NIP that Morpheus sent him in order to use the public phones for free!.
 
 Now the world belongs to Chyper! (ok, not that much)
 
