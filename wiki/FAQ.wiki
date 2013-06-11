@@ -1,3 +1,4 @@
+#labels FAQ
 #Security concerns and more.
 
 === Q. What happen if someone steal my device/computer, of hacks into it ? ===
