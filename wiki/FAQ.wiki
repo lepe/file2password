@@ -1,0 +1,40 @@
+#Security concerns and more.
+
+=== Q. What happen if someone steal my device/computer, of hacks into it ? ===
+
+ * Your device/computer may contain thousands of files (pictures, music, documents, etc.). Unless you name the password file: "this_is_my_password.png", it would be hard to know which file you used. 
+ * If you store that file in some encrypted directory, external device, or much better: in the cloud, your password will be safe even if someone hacks or stole your computer. 
+ * If your file gets compromised, you can go to your website and reset your password.
+
+=== Q. What if I lost my file ? ===
+
+ * You can keep a copy of it in a safe place (your email account, online drive, a CD, etc.)
+ * If you have no other copy of it, you can reset your password and use another one.
+
+=== Q. If someone hacks into a website in which I set a password with this library, it would be safe? ===
+
+ * Using a file, protects you even more than a simple password in those situations. Please read the [https://code.google.com/p/file2password/wiki/Introduction Introduction] for more details.
+ * Even if the password is revealed (poor security implementation by a website), using the same file in different websites may generate different passwords (to be implemented soon).
+
+=== Q. Is the password 100% safe? ===
+
+ * I'm afraid it is not. It may be a lot more stronger than most common passwords today, but it not be enough for future technology.
+
+=== Q. Should I trust any website using this library ? ===
+
+ * No. This library won't increase a website's trusting or security. It can be hacked (as any website today) and your password file could be "stolen".
+
+=== Q. What can I do to protect myself when using this library ? ===
+
+ * Do not use any file which may contain important private information (like a copy of your passport, a file containing your passwords, a picture of your naked dog, etc.)
+ * Do not use easy-to-spot file names, like: "this_is_not_my_password.png", "facebook.pass", "secret.key", etc.
+ * You may rename your file every now and then (the file content is the important part. It doesn't matter which is the filename).
+
+=== Q. How can I use a file I have stored in my online drive ? ===
+
+ * For a desktop computer, you may need to install some application to make your files available offline. Then you can use them as a normal file.
+ * For android: Install Firefox and Google Drive application. When selecting the file, select "Google Drive" and the rest is done by itself.
+
+=== Q. Is the library ready for production ? ===
+
+ * It is still in development but it can be used.
